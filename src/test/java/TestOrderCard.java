@@ -35,7 +35,7 @@ public class TestOrderCard {
     }
 
     @Test
-    public void positiveTest() throws InterruptedException {
+    public void positiveTest() {
         driver.findElement(By.cssSelector("[data-test-id='name'] input")).sendKeys("Иванов-Петров Иван");
         driver.findElement(By.cssSelector("[data-test-id='phone'] input")).sendKeys("+79111122333");
         driver.findElement(By.cssSelector("[data-test-id='agreement']")).click();
